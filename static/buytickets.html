@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang='en' style="height: 100%;">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/box.css">
+		<link rel="stylesheet" type="text/css" href="css/text.css">
+		<link rel="stylesheet" type="text/css" href="css/countdown.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/profile.css">
+		<link rel="stylesheet" type="text/css" href="css/coolbutton.css">
+		<link rel="stylesheet" type="text/css" href="css/rvslider.min.css">
+		<link rel="stylesheet" type="text/css" href="css/team.css">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113035060-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-113035060-1');
+		</script>
+
+		<title>TEDxIIITD</title>
+	</head>
+	<body>
+		<div style="background: black; height: 100%;" id="mainsection" class="scrolll">
+			<div class="container-fluid" style="border: 2px solid black; border-top: 0px; border-bottom: 0px; padding: 0px;">
+				<div style="padding: 0px; margin: 0px;">
+					<div align="center" style="padding-top: 10px;">
+						<div class="nav navbar container navbar-expand-lg navbar-light" style="border-radius: 5px; background: white;">
+							<a class="navbar-brand" href="/" style="border-bottom: 0px;">
+								<img src="img/logosmaller.png" alt="TEDxIIITD - Shifting Paradigms" height="70">
+							</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="/speakers" style="font-family: 'Work Sans', sans-serif; border-bottom: 0; cursor: pointer;">Speakers </a>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link" href="/pastspeakers" style="font-family: 'Work Sans', sans-serif; border-bottom: 0; cursor: pointer;">Past Speakers</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/partners" style="font-family: 'Work Sans', sans-serif; border-bottom: 0;">Partners</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/blog" style="font-family: 'Work Sans', sans-serif; border-bottom: 0;">Blog</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/team" style="font-family: 'Work Sans', sans-serif; border-bottom: 0;">Team</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/tickets" style="font-family: 'Work Sans', sans-serif; border-bottom: 0;">Tickets</a>
+									</li>
+									
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="background: url('img/womanspeakingtocrowd.jpg') fixed; background-size: cover; height: 100%;">
+				<div class="container">
+					<br><br>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-12">
+									<h3 style="font-family: arial, sans-serif; color: white; letter-spacing: 4px; padding: 10px; padding-top: 0px; font-weight: 800;">Buy Your Ticket!</h3>
+									<h5 style="font-family: 'Raleway', sans-serif; color: white; padding-left: 10px;">
+										One ticket includes pass for one person, a TEDxIIITD T-shirt, Dinner and snacks.
+									</h5>
+									<br><br>
+									
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<form id="buyticketform" name="buyticketform" action="/buy" method="POST" style="padding-left: 10px; color: white;">
+										<div class="row">
+											<div class="col-sm-12">
+												<span>
+												    <label for=name style="display:block;">Your Name*</label>
+												    <input data-validation="required" type=text name="name" id="name" /><br>
+												</span>
+												<br><br>
+											</div>
+											<div class="col-sm-12">
+												<span>
+												    <label for=email  style="display:block">Your E-mail address*</label>
+												    <input data-validation="required" type=email name="email" id="email" /><br>
+												</span>
+												<br><br>
+											</div>
+											<div class="col-sm-12">
+												<span>
+												    <label for=contact  style="display:block">Your Contact number*</label>
+												    <input data-validation="required number" type=text name="contact" id="contact" /><br>
+												</span>
+											</div>
+										</div>
+										<br><br>
+										<input style="padding: 10px; cursor: pointer; font-family: 'Work Sans', sans-serif;" type="submit" id="submit" name="submit" value="Pay Rs. 1000/-">
+										<br><br>
+									</form>
+									<br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer" style="background-repeat: no-repeat; background-image: url('img/iiitdtransparentblack1.png'); background-position: right;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4" style="padding: 20px;">
+						<img src="img/logosmaller.png" style="max-width: 100%;">
+					</div>
+					<div class="col-lg-4 col-md-6 offset-lg-4 offset-md-2">
+						<ul class="footermenu">
+							<div class="row">
+								<li><a href="/partners" style="color: red; text-decoration: none; border-bottom: none;">PARTNERS</a></li>
+								<li><a href="/tickets" style="color: red; text-decoration: none; border-bottom: none;">TICKETS</a></li>
+								<li><a href="/underconstruction" style="color: red; text-decoration: none; border-bottom: none;">FAQ</a></li>
+							</div>
+							<div class="row" id="iconscons">
+								<style type="text/css">
+									div#iconscons li a{
+										border-bottom: 0;
+										background: #eee;
+										padding: 10px;
+										border-radius: 20px;
+									}
+								</style>
+								<li><a href="https://www.facebook.com/TEDxIIITD/"><i class="fa fa-facebook" style="font-size: 20px;"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCAPMpcmfZN_zrZ8B62pm6HA"><i class="fa fa-youtube" style="font-size: 20px;"></i></a></li>
+								<li><a href="https://www.instagram.com/tedxiiitd/"><i class="fa fa-instagram" style="font-size: 20px;"></i></a></li>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-md-4">
+						<br>
+						<div class="row">
+							<div class="col-lg-12 col-md-12">
+								<a href="mailto:tedx@iiitd.ac.in">tedx@iiitd.ac.in</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="background: rgba(255, 255, 255, 0.9); display: inline-block;">
+					<div class="col-lg-12 col-md-12" style="font-family: 'Fira Sans', sans-serif; ">
+						This independent TEDx event is operated under licence from TED.
+					</div>
+				</div>
+				<br><br>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+		<script src="https://use.fontawesome.com/2c00ed3864.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+
+			function scrollto(id) {
+				var etop = $('#' + id).offset().top;
+				$('html, body').animate({
+					scrollTop: etop
+				}, 1000);
+			}
+
+			$.validate({
+				lang: 'en'
+			});
+
+		</script>
+	</body>
+</html>

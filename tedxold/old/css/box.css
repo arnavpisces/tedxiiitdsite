@@ -1,0 +1,62 @@
+
+
+  svg.intro {
+    background: linear-gradient(135deg, red, black);
+    max-width: 800px;
+    -webkit-box-shadow: 0 30px 50px -20px black;
+            box-shadow: 0 30px 50px -20px black;
+  }
+  svg.intro .text {
+    display: none;
+  }
+  svg.intro.go .text {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+  }
+  svg.intro.go .text-stroke {
+    fill: none;
+    stroke: black;
+    stroke-width: 2.8px;
+    stroke-dashoffset: -900;
+    stroke-dasharray: 900;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    -webkit-animation: dash 2.0s ease-in-out forwards;
+            animation: dash 2.0s ease-in-out forwards;
+  }
+  svg.intro.go .text-stroke:nth-child(2) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  svg.intro.go .text-stroke:nth-child(3) {
+    -webkit-animation-delay: .1s;
+            animation-delay: .1s;
+  }
+  svg.intro.go .text-stroke-2 {
+    stroke: white;
+    -webkit-animation-delay: .9s;
+            animation-delay: .9s;
+  }
+  svg.intro.go .text-stroke:nth-child(5) {
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+  }
+  svg.intro.go .text-stroke:nth-child(6) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+
+  @-webkit-keyframes dash {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes dash {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  

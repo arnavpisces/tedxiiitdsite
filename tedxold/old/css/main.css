@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+#main {
+    background: -webkit-radial-gradient(5% 50%, circle, #0c090d, #ff5a5f);
+}
+
+/*h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}*/
+
+
+
+#timer {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #eee;
+  letter-spacing: -1px;
+  /* text-align: center; */
+}
+#timer span {
+  font-size: 40px;
+  color: #ddd;
+  margin: 0 3px 0 15px;
+  text-align: center;
+}
+#timer span:first-child {
+  margin-left: 0;
+}
+
+
+li.nav-item {
+	padding: 20px;
+}
+
+
+
+
+@media screen and (max-width: 995px) {
+  #nominatetext {
+    display: none;
+  }
+}
+
+ul.footermenu li {
+  display: inline;
+  padding: 20px;
+  cursor: pointer;
+  color: red;
+  font-weight: bolder;
+}
+
+label {
+	font-family: 'Work Sans', sans-serif;
+	text-align: left;
+}
+input[type="text"] {
+	padding: 10px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+input[type="email"] {
+	padding: 10px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+#nominationform input[type="text"],#nominationform input[type="email"] {
+  background: transparent;
+  border: none;
+  border-bottom: 2px grey dotted;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+}
+
+#nominationform input[type="text"]:focus,#nominationform input[type="email"]:focus {
+  box-shadow: rgba(255, 255, 255, 1) 0 10px;
+  border: none;
+}
+
+
+#nominationform input[type="submit"] {
+  background: black;
+  color: white;
+  -webkit-transition: all 0.3s ease;
+}
+
+#nominationform input[type="submit"]:hover {
+  background: white;
+  color: black;
+  border: 2px black solid;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  /* bottom:0; */
+  background-color: white;
+  color:black;
+}
+
+.help-block, .form-error {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.form-error {
+  color: red;
+}
+
+@media only screen and (max-width:43.75em) { 
+  .container {
+    max-width: 90%;
+  }
+}
+
+
+div.partnerimage {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}
+
+.partnerimage img{
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  max-width: 100%;
+  max-height: 100%;
+}

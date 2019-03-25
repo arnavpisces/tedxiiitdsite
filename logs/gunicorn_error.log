@@ -1,0 +1,1202 @@
+[2018-03-11 15:19:00 +0000] [27982] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:19:00 +0000] [27982] [INFO] Listening at: http://0.0.0.0:5000 (27982)
+[2018-03-11 15:19:00 +0000] [27982] [INFO] Using worker: sync
+[2018-03-11 15:19:00 +0000] [27989] [INFO] Booting worker with pid: 27989
+[2018-03-11 15:26:22 +0000] [27982] [INFO] Handling signal: term
+[2018-03-11 15:26:22 +0000] [27989] [INFO] Worker exiting (pid: 27989)
+[2018-03-11 15:26:22 +0000] [27982] [INFO] Shutting down: Master
+[2018-03-11 15:26:22 +0000] [28149] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:26:22 +0000] [28149] [INFO] Listening at: http://0.0.0.0:5000 (28149)
+[2018-03-11 15:26:22 +0000] [28149] [INFO] Using worker: sync
+[2018-03-11 15:26:23 +0000] [28157] [INFO] Booting worker with pid: 28157
+[2018-03-11 15:26:38,807] ERROR in app: Exception on /oauth2callback [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_googlelogin.py", line 217, in decorated
+    return view_func(**params)
+  File "/home/flaskappuser/flaskapp/app.py", line 174, in login
+    user = users[userinfo['id']] = User(userinfo)
+NameError: global name 'User' is not defined
+[2018-03-11 15:27:43 +0000] [28149] [INFO] Handling signal: term
+[2018-03-11 15:27:43 +0000] [28157] [INFO] Worker exiting (pid: 28157)
+[2018-03-11 15:27:43 +0000] [28149] [INFO] Shutting down: Master
+[2018-03-11 15:27:43 +0000] [28191] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:27:43 +0000] [28191] [INFO] Listening at: http://0.0.0.0:5000 (28191)
+[2018-03-11 15:27:43 +0000] [28191] [INFO] Using worker: sync
+[2018-03-11 15:27:43 +0000] [28198] [INFO] Booting worker with pid: 28198
+[2018-03-11 15:30:41 +0000] [28191] [INFO] Handling signal: term
+[2018-03-11 15:30:41 +0000] [28198] [INFO] Worker exiting (pid: 28198)
+[2018-03-11 15:30:41 +0000] [28191] [INFO] Shutting down: Master
+[2018-03-11 15:30:41 +0000] [28296] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:30:41 +0000] [28296] [INFO] Listening at: http://0.0.0.0:5000 (28296)
+[2018-03-11 15:30:41 +0000] [28296] [INFO] Using worker: sync
+[2018-03-11 15:30:41 +0000] [28303] [INFO] Booting worker with pid: 28303
+[2018-03-11 15:45:59 +0000] [28296] [INFO] Handling signal: term
+[2018-03-11 15:45:59 +0000] [28303] [INFO] Worker exiting (pid: 28303)
+[2018-03-11 15:45:59 +0000] [28296] [INFO] Shutting down: Master
+[2018-03-11 15:45:59 +0000] [29142] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:45:59 +0000] [29142] [INFO] Listening at: http://0.0.0.0:5000 (29142)
+[2018-03-11 15:45:59 +0000] [29142] [INFO] Using worker: sync
+[2018-03-11 15:45:59 +0000] [29150] [INFO] Booting worker with pid: 29150
+[2018-03-11 15:47:56 +0000] [29142] [INFO] Handling signal: term
+[2018-03-11 15:47:56 +0000] [29150] [INFO] Worker exiting (pid: 29150)
+[2018-03-11 15:47:56 +0000] [29142] [INFO] Shutting down: Master
+[2018-03-11 15:47:56 +0000] [29195] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:47:56 +0000] [29195] [INFO] Listening at: http://0.0.0.0:5000 (29195)
+[2018-03-11 15:47:56 +0000] [29195] [INFO] Using worker: sync
+[2018-03-11 15:47:56 +0000] [29202] [INFO] Booting worker with pid: 29202
+[2018-03-11 15:48:36 +0000] [29195] [INFO] Handling signal: term
+[2018-03-11 15:48:36 +0000] [29202] [INFO] Worker exiting (pid: 29202)
+[2018-03-11 15:48:36 +0000] [29195] [INFO] Shutting down: Master
+[2018-03-11 15:48:36 +0000] [29237] [INFO] Starting gunicorn 19.7.1
+[2018-03-11 15:48:36 +0000] [29237] [INFO] Listening at: http://0.0.0.0:5000 (29237)
+[2018-03-11 15:48:36 +0000] [29237] [INFO] Using worker: sync
+[2018-03-11 15:48:36 +0000] [29243] [INFO] Booting worker with pid: 29243
+[2018-03-12 01:27:43 +0000] [29237] [INFO] Handling signal: term
+[2018-03-12 01:27:43 +0000] [29243] [INFO] Worker exiting (pid: 29243)
+[2018-03-12 01:27:43 +0000] [29237] [INFO] Shutting down: Master
+[2018-03-12 01:27:43 +0000] [7751] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:27:43 +0000] [7751] [INFO] Listening at: http://0.0.0.0:5000 (7751)
+[2018-03-12 01:27:43 +0000] [7751] [INFO] Using worker: sync
+[2018-03-12 01:27:43 +0000] [7759] [INFO] Booting worker with pid: 7759
+[2018-03-12 01:27:43 +0000] [7759] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/flaskappuser/flaskapp/app.py", line 248, in <module>
+    @login_required
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: flashsalelogin
+[2018-03-12 01:27:43 +0000] [7759] [INFO] Worker exiting (pid: 7759)
+[2018-03-12 01:27:43 +0000] [7751] [INFO] Shutting down: Master
+[2018-03-12 01:27:43 +0000] [7751] [INFO] Reason: Worker failed to boot.
+[2018-03-12 01:27:44 +0000] [7763] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:27:44 +0000] [7763] [INFO] Listening at: http://0.0.0.0:5000 (7763)
+[2018-03-12 01:27:44 +0000] [7763] [INFO] Using worker: sync
+[2018-03-12 01:27:44 +0000] [7769] [INFO] Booting worker with pid: 7769
+[2018-03-12 01:27:44 +0000] [7769] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/flaskappuser/flaskapp/app.py", line 248, in <module>
+    @login_required
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: flashsalelogin
+[2018-03-12 01:27:44 +0000] [7769] [INFO] Worker exiting (pid: 7769)
+[2018-03-12 01:27:44 +0000] [7763] [INFO] Shutting down: Master
+[2018-03-12 01:27:44 +0000] [7763] [INFO] Reason: Worker failed to boot.
+[2018-03-12 01:27:44 +0000] [7773] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:27:44 +0000] [7773] [INFO] Listening at: http://0.0.0.0:5000 (7773)
+[2018-03-12 01:27:44 +0000] [7773] [INFO] Using worker: sync
+[2018-03-12 01:27:44 +0000] [7779] [INFO] Booting worker with pid: 7779
+[2018-03-12 01:27:45 +0000] [7779] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/flaskappuser/flaskapp/app.py", line 248, in <module>
+    @login_required
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: flashsalelogin
+[2018-03-12 01:27:45 +0000] [7779] [INFO] Worker exiting (pid: 7779)
+[2018-03-12 01:27:45 +0000] [7773] [INFO] Shutting down: Master
+[2018-03-12 01:27:45 +0000] [7773] [INFO] Reason: Worker failed to boot.
+[2018-03-12 01:27:45 +0000] [7783] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:27:45 +0000] [7783] [INFO] Listening at: http://0.0.0.0:5000 (7783)
+[2018-03-12 01:27:45 +0000] [7783] [INFO] Using worker: sync
+[2018-03-12 01:27:45 +0000] [7789] [INFO] Booting worker with pid: 7789
+[2018-03-12 01:27:45 +0000] [7789] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/flaskappuser/flaskapp/app.py", line 248, in <module>
+    @login_required
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: flashsalelogin
+[2018-03-12 01:27:45 +0000] [7789] [INFO] Worker exiting (pid: 7789)
+[2018-03-12 01:27:45 +0000] [7783] [INFO] Shutting down: Master
+[2018-03-12 01:27:45 +0000] [7783] [INFO] Reason: Worker failed to boot.
+[2018-03-12 01:27:46 +0000] [7793] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:27:46 +0000] [7793] [INFO] Listening at: http://0.0.0.0:5000 (7793)
+[2018-03-12 01:27:46 +0000] [7793] [INFO] Using worker: sync
+[2018-03-12 01:27:46 +0000] [7800] [INFO] Booting worker with pid: 7800
+[2018-03-12 01:27:46 +0000] [7800] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+  File "/home/flaskappuser/flaskapp/app.py", line 248, in <module>
+    @login_required
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1080, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 64, in wrapper_func
+    return f(self, *args, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1051, in add_url_rule
+    'existing endpoint function: %s' % endpoint)
+AssertionError: View function mapping is overwriting an existing endpoint function: flashsalelogin
+[2018-03-12 01:27:46 +0000] [7800] [INFO] Worker exiting (pid: 7800)
+[2018-03-12 01:27:46 +0000] [7793] [INFO] Shutting down: Master
+[2018-03-12 01:27:46 +0000] [7793] [INFO] Reason: Worker failed to boot.
+[2018-03-12 01:29:56 +0000] [7847] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:29:56 +0000] [7847] [INFO] Listening at: http://0.0.0.0:5000 (7847)
+[2018-03-12 01:29:56 +0000] [7847] [INFO] Using worker: sync
+[2018-03-12 01:29:56 +0000] [7853] [INFO] Booting worker with pid: 7853
+[2018-03-12 01:30:12 +0000] [7847] [INFO] Handling signal: term
+[2018-03-12 01:30:12 +0000] [7853] [INFO] Worker exiting (pid: 7853)
+[2018-03-12 01:30:12 +0000] [7847] [INFO] Shutting down: Master
+[2018-03-12 01:30:12 +0000] [7871] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:30:12 +0000] [7871] [INFO] Listening at: http://0.0.0.0:5000 (7871)
+[2018-03-12 01:30:12 +0000] [7871] [INFO] Using worker: sync
+[2018-03-12 01:30:12 +0000] [7879] [INFO] Booting worker with pid: 7879
+[2018-03-12 01:30:30 +0000] [7871] [INFO] Handling signal: term
+[2018-03-12 01:30:30 +0000] [7879] [INFO] Worker exiting (pid: 7879)
+[2018-03-12 01:30:30 +0000] [7871] [INFO] Shutting down: Master
+[2018-03-12 01:30:30 +0000] [7899] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:30:30 +0000] [7899] [INFO] Listening at: http://0.0.0.0:5000 (7899)
+[2018-03-12 01:30:30 +0000] [7899] [INFO] Using worker: sync
+[2018-03-12 01:30:30 +0000] [7905] [INFO] Booting worker with pid: 7905
+[2018-03-12 01:33:09 +0000] [7899] [INFO] Handling signal: term
+[2018-03-12 01:33:09 +0000] [7905] [INFO] Worker exiting (pid: 7905)
+[2018-03-12 01:33:09 +0000] [7899] [INFO] Shutting down: Master
+[2018-03-12 01:33:09 +0000] [8007] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:33:09 +0000] [8007] [INFO] Listening at: http://0.0.0.0:5000 (8007)
+[2018-03-12 01:33:09 +0000] [8007] [INFO] Using worker: sync
+[2018-03-12 01:33:09 +0000] [8013] [INFO] Booting worker with pid: 8013
+[2018-03-12 01:36:55 +0000] [8007] [INFO] Handling signal: term
+[2018-03-12 01:36:55 +0000] [8013] [INFO] Worker exiting (pid: 8013)
+[2018-03-12 01:36:55 +0000] [8007] [INFO] Shutting down: Master
+[2018-03-12 01:36:55 +0000] [8147] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:36:55 +0000] [8147] [INFO] Listening at: http://0.0.0.0:5000 (8147)
+[2018-03-12 01:36:55 +0000] [8147] [INFO] Using worker: sync
+[2018-03-12 01:36:55 +0000] [8155] [INFO] Booting worker with pid: 8155
+[2018-03-12 01:41:44,972] ERROR in app: Exception on /flashsalelogin [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/flaskappuser/flaskapp/app.py", line 197, in flashsalelogin
+    tickets = Ticket.query.all()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2737, in all
+    return list(self)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2889, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2912, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) no such table: ticket [SQL: u'SELECT ticket.ticket_id AS ticket_ticket_id, ticket.allottee AS ticket_allottee \nFROM ticket'] (Background on this error at: http://sqlalche.me/e/e3q8)
+[2018-03-12 01:41:45,359] ERROR in app: Exception on /flashsalelogin [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_login.py", line 792, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/flaskappuser/flaskapp/app.py", line 197, in flashsalelogin
+    tickets = Ticket.query.all()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2737, in all
+    return list(self)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2889, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/orm/query.py", line 2912, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 948, in execute
+    return meth(self, multiparams, params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 269, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1060, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1200, in _execute_context
+    context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1193, in _execute_context
+    context)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 507, in do_execute
+    cursor.execute(statement, parameters)
+OperationalError: (sqlite3.OperationalError) no such table: ticket [SQL: u'SELECT ticket.ticket_id AS ticket_ticket_id, ticket.allottee AS ticket_allottee \nFROM ticket'] (Background on this error at: http://sqlalche.me/e/e3q8)
+[2018-03-12 01:52:35 +0000] [8147] [INFO] Handling signal: term
+[2018-03-12 01:52:35 +0000] [8155] [INFO] Worker exiting (pid: 8155)
+[2018-03-12 01:52:35 +0000] [8147] [INFO] Shutting down: Master
+[2018-03-12 01:52:35 +0000] [8686] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:52:35 +0000] [8686] [INFO] Listening at: http://0.0.0.0:5000 (8686)
+[2018-03-12 01:52:35 +0000] [8686] [INFO] Using worker: sync
+[2018-03-12 01:52:35 +0000] [8694] [INFO] Booting worker with pid: 8694
+[2018-03-12 01:56:41 +0000] [8686] [INFO] Handling signal: term
+[2018-03-12 01:56:41 +0000] [8694] [INFO] Worker exiting (pid: 8694)
+[2018-03-12 01:56:41 +0000] [8686] [INFO] Shutting down: Master
+[2018-03-12 01:56:42 +0000] [8807] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:56:42 +0000] [8807] [INFO] Listening at: http://0.0.0.0:5000 (8807)
+[2018-03-12 01:56:42 +0000] [8807] [INFO] Using worker: sync
+[2018-03-12 01:56:42 +0000] [8813] [INFO] Booting worker with pid: 8813
+[2018-03-12 01:57:38 +0000] [8807] [INFO] Handling signal: term
+[2018-03-12 01:57:38 +0000] [8813] [INFO] Worker exiting (pid: 8813)
+[2018-03-12 01:57:38 +0000] [8807] [INFO] Shutting down: Master
+[2018-03-12 01:57:38 +0000] [9002] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:57:38 +0000] [9002] [INFO] Listening at: http://0.0.0.0:5000 (9002)
+[2018-03-12 01:57:38 +0000] [9002] [INFO] Using worker: sync
+[2018-03-12 01:57:38 +0000] [9010] [INFO] Booting worker with pid: 9010
+[2018-03-12 01:57:56 +0000] [9002] [INFO] Handling signal: term
+[2018-03-12 01:57:56 +0000] [9010] [INFO] Worker exiting (pid: 9010)
+[2018-03-12 01:57:56 +0000] [9002] [INFO] Shutting down: Master
+[2018-03-12 01:57:56 +0000] [9028] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 01:57:56 +0000] [9028] [INFO] Listening at: http://0.0.0.0:5000 (9028)
+[2018-03-12 01:57:56 +0000] [9028] [INFO] Using worker: sync
+[2018-03-12 01:57:56 +0000] [9034] [INFO] Booting worker with pid: 9034
+[2018-03-12 09:30:34 +0000] [9028] [INFO] Handling signal: term
+[2018-03-12 09:30:34 +0000] [9034] [INFO] Worker exiting (pid: 9034)
+[2018-03-12 09:30:34 +0000] [9028] [INFO] Shutting down: Master
+[2018-03-12 09:30:34 +0000] [18215] [INFO] Starting gunicorn 19.7.1
+[2018-03-12 09:30:34 +0000] [18215] [INFO] Listening at: http://0.0.0.0:5000 (18215)
+[2018-03-12 09:30:34 +0000] [18215] [INFO] Using worker: sync
+[2018-03-12 09:30:34 +0000] [18223] [INFO] Booting worker with pid: 18223
+[2018-03-12 21:56:48,017] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 14sm21209577pfi.164 - gsmtp')
+[2018-03-12 21:56:52,606] ERROR in app: Exception on /paymentresult [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 119, in result
+    response = api.payment_detail(paymentid)["payment"]
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 137, in payment_detail
+    response = self._api_call(method='get', path='payments/%s/' % payment_id)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 166, in _api_call
+    raise Exception('Unable to decode response. Expected JSON, got this: \n\n\n %s' % req.text)
+Exception: Unable to decode response. Expected JSON, got this: 
+
+
+ {
+    "success": true,
+    "payment": {
+        "payment_id": "MOJO8313000W66379848",
+        "status": "Credit",
+        "currency": "INR",
+        "amount": "1000.00",
+        "buyer_name": "vinayak gautam",
+        "buyer_phone": "9899274829",
+        "buyer_email": "vinayak.gautam@gmail.com",
+        "shipping_address": null,
+        "shipping_city": null,
+        "shipping_state": null,
+        "shipping_zip": null,
+        "shipping_country": null,
+        "quantity": 1,
+        "unit_price": "1000.00",
+        "fees": "23.00",
+        "link_slug": "tedxiiitd",
+        "link_title": "TEDxIIITD",
+        "variants": [],
+        "custom_fields": {},
+        "affiliate_commission": "0",
+        "payment_request": null,
+        "instrument_type": "WALLET",
+        "failure": null,
+        "created_at": "2018-03-13T04:56:20.357559Z"
+    }
+}
+
+[2018-03-12 22:11:50,395] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 75sm20831569pfl.169 - gsmtp')
+[2018-03-12 22:26:55,083] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials j13sm20104088pfk.174 - gsmtp')
+[2018-03-12 22:26:58,442] ERROR in app: Exception on /paymentresult [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 119, in result
+    response = api.payment_detail(paymentid)["payment"]
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 137, in payment_detail
+    response = self._api_call(method='get', path='payments/%s/' % payment_id)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 166, in _api_call
+    raise Exception('Unable to decode response. Expected JSON, got this: \n\n\n %s' % req.text)
+Exception: Unable to decode response. Expected JSON, got this: 
+
+
+ {
+    "success": true,
+    "payment": {
+        "payment_id": "MOJO8313000W66380924",
+        "status": "Credit",
+        "currency": "INR",
+        "amount": "1000.00",
+        "buyer_name": "SHIVANI CHHOLAK",
+        "buyer_phone": "99291 72226",
+        "buyer_email": "shivanic03@iimamritsar.ac.in",
+        "shipping_address": null,
+        "shipping_city": null,
+        "shipping_state": null,
+        "shipping_zip": null,
+        "shipping_country": null,
+        "quantity": 1,
+        "unit_price": "1000.00",
+        "fees": "23.00",
+        "link_slug": "tedxiiitd",
+        "link_title": "TEDxIIITD",
+        "variants": [],
+        "custom_fields": {},
+        "affiliate_commission": "0",
+        "payment_request": null,
+        "instrument_type": "WALLET",
+        "failure": null,
+        "created_at": "2018-03-13T05:26:04.095679Z"
+    }
+}
+
+[2018-03-12 22:41:52,836] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u21sm19219510pfg.60 - gsmtp')
+[2018-03-12 22:41:57,565] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 71sm8730505pfs.179 - gsmtp')
+[2018-03-12 22:45:08,878] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 73sm21145981pfz.165 - gsmtp')
+[2018-03-12 22:45:11,702] ERROR in app: Exception on /paymentresult [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 119, in result
+    response = api.payment_detail(paymentid)["payment"]
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 137, in payment_detail
+    response = self._api_call(method='get', path='payments/%s/' % payment_id)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 166, in _api_call
+    raise Exception('Unable to decode response. Expected JSON, got this: \n\n\n %s' % req.text)
+Exception: Unable to decode response. Expected JSON, got this: 
+
+
+ {
+    "success": true,
+    "payment": {
+        "payment_id": "MOJO8313000W66381510",
+        "status": "Credit",
+        "currency": "INR",
+        "amount": "1000.00",
+        "buyer_name": "Shubhra Sharma",
+        "buyer_phone": "97174 76460",
+        "buyer_email": "shubhras03@iimamritsar.ac.in",
+        "shipping_address": null,
+        "shipping_city": null,
+        "shipping_state": null,
+        "shipping_zip": null,
+        "shipping_country": null,
+        "quantity": 1,
+        "unit_price": "1000.00",
+        "fees": "23.00",
+        "link_slug": "tedxiiitd",
+        "link_title": "TEDxIIITD",
+        "variants": [],
+        "custom_fields": {},
+        "affiliate_commission": "0",
+        "payment_request": null,
+        "instrument_type": "WALLET",
+        "failure": null,
+        "created_at": "2018-03-13T05:44:29.446400Z"
+    }
+}
+
+[2018-03-12 23:00:11,392] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials y1sm5587749pgs.80 - gsmtp')
+[2018-03-12 23:03:54,730] ERROR in app: Exception on /createticket/Sarthak Bhagat/sarthak16189@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials s86sm20284931pfi.4 - gsmtp')
+[2018-03-12 23:03:56,425] ERROR in app: Exception on /createticket/Sarthak Bhagat/sarthak16189@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 9sm20053276pfq.63 - gsmtp')
+[2018-03-12 23:04:48,026] ERROR in app: Exception on /createticket/Sarthak Bhagat/sarthak16189@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 14sm17547951pga.53 - gsmtp')
+[2018-03-12 23:05:48,281] ERROR in app: Exception on /createticket/Sarthak Bhagat/sarthak16189@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials q66sm19220578pfi.95 - gsmtp')
+[2018-03-12 23:07:58,021] ERROR in app: Exception on /createticket/Shubhang/shubhang16198@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d77sm21004403pfe.20 - gsmtp')
+[2018-03-12 23:07:59,816] ERROR in app: Exception on /createticket/Shubhang/shubhang16198@iiitd.ac.in [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 104, in createticket
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f11sm20373868pfa.112 - gsmtp')
+[2018-03-12 23:12:00,174] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d12sm18009465pfn.42 - gsmtp')
+[2018-03-12 23:30:13,848] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials e23sm18798018pfi.76 - gsmtp')
+[2018-03-12 23:41:55,212] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials x13sm19223858pfh.115 - gsmtp')
+[2018-03-13 00:12:02,876] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials w88sm20739130pfa.50 - gsmtp')
+[2018-03-13 00:30:16,631] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f5sm17977746pgn.56 - gsmtp')
+[2018-03-13 01:41:57,667] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 7sm20960526pft.84 - gsmtp')
+[2018-03-13 02:12:05,363] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials w88sm21310520pfa.50 - gsmtp')
+[2018-03-13 02:30:19,106] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v8sm19013128pff.38 - gsmtp')
+[2018-03-13 03:44:53,806] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials b6sm157401pfm.160 - gsmtp')
+[2018-03-13 03:44:56,108] ERROR in app: Exception on /paymentresult [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 119, in result
+    response = api.payment_detail(paymentid)["payment"]
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 137, in payment_detail
+    response = self._api_call(method='get', path='payments/%s/' % payment_id)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/instamojo_wrapper/api.py", line 166, in _api_call
+    raise Exception('Unable to decode response. Expected JSON, got this: \n\n\n %s' % req.text)
+Exception: Unable to decode response. Expected JSON, got this: 
+
+
+ {
+    "success": true,
+    "payment": {
+        "payment_id": "MOJO8313000N66391727",
+        "status": "Credit",
+        "currency": "INR",
+        "amount": "1000.00",
+        "buyer_name": "Ashish Dwivedi",
+        "buyer_phone": "9999249316",
+        "buyer_email": "ashish.d7977@gmail.com",
+        "shipping_address": null,
+        "shipping_city": null,
+        "shipping_state": null,
+        "shipping_zip": null,
+        "shipping_country": null,
+        "quantity": 1,
+        "unit_price": "1000.00",
+        "fees": "23.00",
+        "link_slug": "tedxiiitd",
+        "link_title": "TEDxIIITD",
+        "variants": [],
+        "custom_fields": {},
+        "affiliate_commission": "0",
+        "payment_request": null,
+        "instrument_type": "NETBANKING",
+        "failure": null,
+        "created_at": "2018-03-13T10:43:25.296344Z"
+    }
+}
+
+[2018-03-13 03:59:56,086] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o82sm270626pfj.163 - gsmtp')
+[2018-03-13 04:29:58,503] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials q65sm465907pfd.140 - gsmtp')
+[2018-03-13 05:30:01,166] ERROR in app: Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/app.py", line 138, in webhook
+    sendemail(data, filename)
+  File "/home/flaskappuser/flaskapp/mailer.py", line 33, in sendemail
+    server.login(fromaddr, "tedx18best")
+  File "/usr/lib/python2.7/smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u27sm245391pfk.172 - gsmtp')
+[2018-03-13 06:33:32 +0000] [18215] [INFO] Handling signal: term
+[2018-03-13 06:33:32 +0000] [18223] [INFO] Worker exiting (pid: 18223)
+[2018-03-13 06:33:32 +0000] [18215] [INFO] Shutting down: Master
+[2018-03-13 06:33:33 +0000] [9714] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 06:33:33 +0000] [9714] [INFO] Listening at: http://0.0.0.0:5000 (9714)
+[2018-03-13 06:33:33 +0000] [9714] [INFO] Using worker: sync
+[2018-03-13 06:33:33 +0000] [9722] [INFO] Booting worker with pid: 9722
+[2018-03-13 18:48:51 +0000] [9714] [INFO] Handling signal: term
+[2018-03-13 18:48:51 +0000] [9722] [INFO] Worker exiting (pid: 9722)
+[2018-03-13 18:48:51 +0000] [9714] [INFO] Shutting down: Master
+[2018-03-13 18:48:52 +0000] [23540] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 18:48:52 +0000] [23540] [INFO] Listening at: http://0.0.0.0:5000 (23540)
+[2018-03-13 18:48:52 +0000] [23540] [INFO] Using worker: sync
+[2018-03-13 18:48:52 +0000] [23548] [INFO] Booting worker with pid: 23548
+[2018-03-13 18:50:16 +0000] [23540] [INFO] Handling signal: term
+[2018-03-13 18:50:16 +0000] [23548] [INFO] Worker exiting (pid: 23548)
+[2018-03-13 18:50:16 +0000] [23540] [INFO] Shutting down: Master
+[2018-03-13 18:50:17 +0000] [23595] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 18:50:17 +0000] [23595] [INFO] Listening at: http://0.0.0.0:5000 (23595)
+[2018-03-13 18:50:17 +0000] [23595] [INFO] Using worker: sync
+[2018-03-13 18:50:17 +0000] [23603] [INFO] Booting worker with pid: 23603
+[2018-03-13 18:51:26 +0000] [23595] [INFO] Handling signal: term
+[2018-03-13 18:51:26 +0000] [23603] [INFO] Worker exiting (pid: 23603)
+[2018-03-13 18:51:26 +0000] [23595] [INFO] Shutting down: Master
+[2018-03-13 18:51:26 +0000] [23643] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 18:51:26 +0000] [23643] [INFO] Listening at: http://0.0.0.0:5000 (23643)
+[2018-03-13 18:51:26 +0000] [23643] [INFO] Using worker: sync
+[2018-03-13 18:51:26 +0000] [23649] [INFO] Booting worker with pid: 23649
+[2018-03-13 18:51:46 +0000] [23643] [INFO] Handling signal: term
+[2018-03-13 18:51:46 +0000] [23649] [INFO] Worker exiting (pid: 23649)
+[2018-03-13 18:51:46 +0000] [23643] [INFO] Shutting down: Master
+[2018-03-13 18:51:46 +0000] [23672] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 18:51:46 +0000] [23672] [INFO] Listening at: http://0.0.0.0:5000 (23672)
+[2018-03-13 18:51:46 +0000] [23672] [INFO] Using worker: sync
+[2018-03-13 18:51:46 +0000] [23679] [INFO] Booting worker with pid: 23679
+[2018-03-13 19:00:05 +0000] [23672] [INFO] Handling signal: term
+[2018-03-13 19:00:05 +0000] [23679] [INFO] Worker exiting (pid: 23679)
+[2018-03-13 19:00:05 +0000] [23672] [INFO] Shutting down: Master
+[2018-03-13 19:00:06 +0000] [23867] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 19:00:06 +0000] [23867] [INFO] Listening at: http://0.0.0.0:5000 (23867)
+[2018-03-13 19:00:06 +0000] [23867] [INFO] Using worker: sync
+[2018-03-13 19:00:06 +0000] [23875] [INFO] Booting worker with pid: 23875
+[2018-03-13 19:26:56 +0000] [23867] [INFO] Handling signal: term
+[2018-03-13 19:26:56 +0000] [23875] [INFO] Worker exiting (pid: 23875)
+[2018-03-13 19:26:56 +0000] [23867] [INFO] Shutting down: Master
+[2018-03-13 19:26:56 +0000] [24370] [INFO] Starting gunicorn 19.7.1
+[2018-03-13 19:26:56 +0000] [24370] [INFO] Listening at: http://0.0.0.0:5000 (24370)
+[2018-03-13 19:26:56 +0000] [24370] [INFO] Using worker: sync
+[2018-03-13 19:26:56 +0000] [24378] [INFO] Booting worker with pid: 24378
+[2018-03-14 09:24:02 +0000] [24370] [INFO] Handling signal: term
+[2018-03-14 09:24:02 +0000] [24378] [INFO] Worker exiting (pid: 24378)
+[2018-03-14 09:24:02 +0000] [24370] [INFO] Shutting down: Master
+[2018-03-14 09:24:02 +0000] [7630] [INFO] Starting gunicorn 19.7.1
+[2018-03-14 09:24:02 +0000] [7630] [INFO] Listening at: http://0.0.0.0:5000 (7630)
+[2018-03-14 09:24:02 +0000] [7630] [INFO] Using worker: sync
+[2018-03-14 09:24:02 +0000] [7638] [INFO] Booting worker with pid: 7638
+[2018-03-14 09:27:44 +0000] [7630] [INFO] Handling signal: term
+[2018-03-14 09:27:44 +0000] [7638] [INFO] Worker exiting (pid: 7638)
+[2018-03-14 09:27:44 +0000] [7630] [INFO] Shutting down: Master
+[2018-03-14 09:27:44 +0000] [7764] [INFO] Starting gunicorn 19.7.1
+[2018-03-14 09:27:44 +0000] [7764] [INFO] Listening at: http://0.0.0.0:5000 (7764)
+[2018-03-14 09:27:44 +0000] [7764] [INFO] Using worker: sync
+[2018-03-14 09:27:44 +0000] [7772] [INFO] Booting worker with pid: 7772
+[2018-03-14 09:30:26 +0000] [7764] [INFO] Handling signal: term
+[2018-03-14 09:30:26 +0000] [7772] [INFO] Worker exiting (pid: 7772)
+[2018-03-14 09:30:26 +0000] [7764] [INFO] Shutting down: Master
+[2018-03-14 09:30:27 +0000] [7997] [INFO] Starting gunicorn 19.7.1
+[2018-03-14 09:30:27 +0000] [7997] [INFO] Listening at: http://0.0.0.0:5000 (7997)
+[2018-03-14 09:30:27 +0000] [7997] [INFO] Using worker: sync
+[2018-03-14 09:30:27 +0000] [8004] [INFO] Booting worker with pid: 8004
+[2018-03-14 09:39:00,701] ERROR in app: Exception on /oauth2callback [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_googlelogin.py", line 198, in decorated
+    _scheme=self.redirect_scheme,
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_googlelogin.py", line 142, in exchange_code
+    client_secret=self.client_secret,
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/api.py", line 98, in post
+    return request('post', url, data=data, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/safe_mode.py", line 39, in wrapped
+    return function(method, url, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/api.py", line 51, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/sessions.py", line 241, in request
+    r.send(prefetch=prefetch)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/models.py", line 641, in send
+    raise SSLError(e)
+SSLError: EOF occurred in violation of protocol (_ssl.c:590)
+[2018-03-14 09:39:18,755] ERROR in app: Exception on /oauth2callback [GET]
+Traceback (most recent call last):
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_googlelogin.py", line 201, in decorated
+    userinfo = self.get_userinfo(token['access_token'])
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/flask_googlelogin.py", line 150, in get_userinfo
+    access_token=access_token,
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/api.py", line 65, in get
+    return request('get', url, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/safe_mode.py", line 39, in wrapped
+    return function(method, url, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/api.py", line 51, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/sessions.py", line 241, in request
+    r.send(prefetch=prefetch)
+  File "/home/flaskappuser/flaskapp/flaskenv/local/lib/python2.7/site-packages/requests/models.py", line 641, in send
+    raise SSLError(e)
+SSLError: EOF occurred in violation of protocol (_ssl.c:590)
+[2018-03-14 09:41:50 +0000] [7997] [INFO] Handling signal: term
+[2018-03-14 09:41:50 +0000] [8004] [INFO] Worker exiting (pid: 8004)
+[2018-03-14 09:41:50 +0000] [7997] [INFO] Shutting down: Master
+[2018-03-14 09:41:50 +0000] [8431] [INFO] Starting gunicorn 19.7.1
+[2018-03-14 09:41:50 +0000] [8431] [INFO] Listening at: http://0.0.0.0:5000 (8431)
+[2018-03-14 09:41:50 +0000] [8431] [INFO] Using worker: sync
+[2018-03-14 09:41:50 +0000] [8439] [INFO] Booting worker with pid: 8439
+[2018-04-30 10:58:56 +0000] [8431] [INFO] Handling signal: term
+[2018-04-30 10:58:56 +0000] [8439] [INFO] Worker exiting (pid: 8439)
+[2018-04-30 10:58:56 +0000] [8431] [INFO] Shutting down: Master
+[2018-04-30 10:59:32 +0000] [730] [INFO] Starting gunicorn 19.7.1
+[2018-04-30 10:59:33 +0000] [730] [INFO] Listening at: http://0.0.0.0:5000 (730)
+[2018-04-30 10:59:33 +0000] [730] [INFO] Using worker: sync
+[2018-04-30 10:59:33 +0000] [961] [INFO] Booting worker with pid: 961
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          [2018-06-01 02:07:52 +0000] [717] [INFO] Starting gunicorn 19.7.1
+[2018-06-01 02:07:53 +0000] [717] [INFO] Listening at: http://0.0.0.0:5000 (717)
+[2018-06-01 02:07:53 +0000] [717] [INFO] Using worker: sync
+[2018-06-01 02:07:53 +0000] [964] [INFO] Booting worker with pid: 964
+[2018-06-01 02:19:51 +0000] [733] [INFO] Starting gunicorn 19.7.1
+[2018-06-01 02:19:51 +0000] [733] [INFO] Listening at: http://0.0.0.0:5000 (733)
+[2018-06-01 02:19:51 +0000] [733] [INFO] Using worker: sync
+[2018-06-01 02:19:51 +0000] [980] [INFO] Booting worker with pid: 980
+[2018-12-10 15:52:49 +0000] [733] [CRITICAL] WORKER TIMEOUT (pid:980)
+[2018-12-10 15:52:49 +0000] [980] [INFO] Worker exiting (pid: 980)
+[2018-12-10 15:52:50 +0000] [30464] [INFO] Booting worker with pid: 30464
+[2018-12-10 15:53:23 +0000] [733] [CRITICAL] WORKER TIMEOUT (pid:30464)
+[2018-12-10 15:53:23 +0000] [30464] [INFO] Worker exiting (pid: 30464)
+[2018-12-10 15:53:23 +0000] [30480] [INFO] Booting worker with pid: 30480

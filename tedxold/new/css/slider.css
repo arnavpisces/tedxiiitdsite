@@ -1,0 +1,39 @@
+.hide {
+  display: none;
+}
+
+iframe{
+}
+
+#slider {
+  width: 640px;
+  margin: 0 auto;
+}
+
+ul li {
+  margin: 0 0.2em;
+  display: inline;
+}
+
+ul {
+ 
+  height: 30px;
+  margin: 0;
+  height: 60px;
+  padding: 0;
+  text-align: center;
+}
+
+#slider:first-child {
+
+   position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #B2B2B2;
+}
+
+a:hover {
+  color: #CCCCCC;
+}

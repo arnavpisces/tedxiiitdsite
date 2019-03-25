@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+@keyframes bottomtotop {
+	from {top: 100%; opacity: 0;}
+	to {top: 0%; opacity: 1;}
+}
+
+.person {
+	cursor: pointer;
+	padding-bottom: 15px;
+	padding-right: 0px !important;
+	font-family: 'Raleway', sans-serif;
+}
+
+.person .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+}
+
+.content:hover {
+	box-shadow: rgba(255, 0, 0, 0.7) 0 10px;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 90%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.facebook, .email {
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	left: 50%;
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+	vertical-align: middle;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	opacity: 0;
+	font-size: 20px;
+	-webkit-transition-delay:0s;
+	-moz-transition-delay:0s;
+	transition-delay: 0s;
+}
+
+a {
+	border-bottom: 0px;
+}
+
+.content-details i {
+	padding: 10px;
+}
+
+.content:hover .content-details{
+  top: 70%;
+  left: 50%;
+  opacity: 1;
+  background: none;
+}
+.content:hover .facebook {
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+	top: 85%;
+	left: 40%;
+	opacity: 1;
+}
+.content:hover .email {
+	-webkit-transition-delay: 0.15s;
+	-moz-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+	top: 85%;
+	left: 60%;
+	opacity: 1;
+}
+
+.facebook:hover {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	background: blue;
+}
+.facebook:hover a {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	color: white !important;
+}
+
+.facebook a:hover {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	color: white !important;
+}
+
+.email:hover {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	background: red;
+}
+.email:hover a {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	color: white !important;
+}
+
+.email a:hover {
+	-webkit-transition-delay: 0s;
+	-moz-transition-delay: 0s;
+	transition-delay: 0s;
+	color: white !important;
+}
+
+
+.content-details h3{
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.10em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.content-details p{
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-top{
+  top: 110%;
+}
